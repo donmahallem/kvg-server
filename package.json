@@ -35,7 +35,10 @@
   "publishConfig": {
     "access": "private"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@manniwatch/api-client": "0.1.0",
+    "@manniwatch/api-proxy-router": "0.1.0"
+  },
   "devDependencies": {
     "@types/chai": "~4.2.11",
     "@types/mocha": "~7.0.2",
