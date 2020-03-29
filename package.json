@@ -1,0 +1,59 @@
+{
+  "name": "@donmahallem/kvg-server",
+  "description": "Angular Client for kvg-server",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha --config ./.mocharc.yml",
+    "test:watch": "mocha --watch",
+    "start": "npm run build:live",
+    "build:live": "nodemon",
+    "build": "tsc",
+    "test:coverage": "nyc --nycrc-path ./.nycrc.json npm run test",
+    "lint": "tslint -c tslint.json -p tsconfig.json src/**/*.ts",
+    "lint:fix": "tslint --fix -c tslint.json -p tsconfig.json src/**/*.ts",
+    "docs": "typedoc --options typedoc.json",
+    "commit": "git-cz"
+  },
+  "private": true,
+  "homepage": "https://donmahallem.github.io/kvg-server/",
+  "author": {
+    "name": "donmahallem",
+    "email": "donmahallem@users.noreply.github.com",
+    "url": "https://github.com/donmahallem"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/donmahallem/kvg-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donmahallem/kvg-server.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "publishConfig": {
+    "access": "private"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "~4.2.11",
+    "@types/mocha": "~7.0.2",
+    "@types/node": "~13.9.4",
+    "@types/sinon": "~7.5.2",
+    "chai": "~4.2.0",
+    "commitizen": "~4.0.3",
+    "cz-conventional-changelog": "~3.1.0",
+    "mocha": "~7.1.1",
+    "nyc": "~15.0.0",
+    "sinon": "~9.0.1",
+    "ts-node": "~8.8.1",
+    "tslint": "6.1.0",
+    "typescript": "~3.7.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

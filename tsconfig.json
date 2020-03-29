@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "declaration": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "noUnusedLocals": true
+    },
+    "typeAcquisition": {
+        "enable": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "baseUrl": "./src"
+}
