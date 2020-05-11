@@ -36,7 +36,7 @@
     "access": "private"
   },
   "dependencies": {
-    "@manniwatch/api-client": "~0.7.0",
+    "@manniwatch/api-client": "~0.7.1",
     "@manniwatch/api-proxy-router": "~0.7.1",
     "express": "^4.17.1",
     "helmet": "^3.22.0"
