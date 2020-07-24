@@ -36,15 +36,15 @@
     "access": "private"
   },
   "dependencies": {
-    "@manniwatch/api-client": "~0.11.0",
-    "@manniwatch/api-proxy-router": "~0.11.0",
+    "@manniwatch/api-client": "~0.13.2",
+    "@manniwatch/api-proxy-router": "~0.13.2",
     "express": "^4.17.1",
-    "helmet": "^3.22.0"
+    "helmet": "^3.23.3"
   },
   "devDependencies": {
-    "@types/chai": "~4.2.11",
-    "@types/mocha": "~7.0.2",
-    "@types/node": "~14.0.11",
+    "@types/chai": "~4.2.12",
+    "@types/mocha": "~8.0.0",
+    "@types/node": "~14.0.25",
     "@types/sinon": "~9.0.4",
     "chai": "~4.2.0",
     "commitizen": "~4.1.2",
@@ -55,7 +55,7 @@
     "sinon": "~9.0.2",
     "ts-node": "~8.10.2",
     "tslint": "6.1.2",
-    "typescript": "~3.9.5"
+    "typescript": "~3.9.7"
   },
   "config": {
     "commitizen": {
