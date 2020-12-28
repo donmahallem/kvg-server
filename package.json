@@ -39,7 +39,7 @@
     "@manniwatch/api-client": "~0.18.0",
     "@manniwatch/api-proxy-router": "~0.18.0",
     "express": "^4.17.1",
-    "helmet": "^4.2.0"
+    "helmet": "^4.3.1"
   },
   "devDependencies": {
     "@types/chai": "~4.2.14",
