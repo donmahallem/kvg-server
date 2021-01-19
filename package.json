@@ -1,7 +1,7 @@
 {
   "name": "@donmahallem/kvg-server",
   "description": "Angular Client for kvg-server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "test": "mocha --config ./.mocharc.yml",
     "test:watch": "mocha --watch",
